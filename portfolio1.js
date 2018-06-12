@@ -16,3 +16,22 @@ span.onclick = function() {
     modal.style.display = "none";
     img.src = this.src = "pic/cooking3.jpeg";
 }
+
+
+$(function() {
+    var form = $('#form');
+
+	$(form).submit(function(event) {
+		event.preventDefault();
+		var formData = $(form).serialize();
+		$.ajax({
+			type: 'POST',
+			url: $(form).attr('action'),
+			data: formData
+		}).done(function(response) {
+			$('#name').val('');
+			$('#email').val('');
+			$('#message').val('');
+		})
+	});
+});

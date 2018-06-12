@@ -1,0 +1,322 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+     <meta charset="utf-8" />
+    <link rel="icon" type="image/png" href="assets/img/favicon.ico">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-icon.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/css/paper-kit.css?v=2.1.0" rel="stylesheet"/>
+    <link href="assets/css/demo.css" rel="stylesheet" />
+    <link href="./portfolio1.css" rel="stylesheet">
+
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,300,700' rel='stylesheet' type='text/css'>
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/css/nucleo-icons.css" rel="stylesheet" />
+
+    <link href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css" rel="stylesheet">
+    
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+
+    <title>Alice's Portfolio</title>
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-md fixed-top navbar-transparent" color-on-scroll="500">
+        <div class="container">
+             <div class="navbar-translate">
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar-info" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-bar"></span>
+                    <span class="navbar-toggler-bar"></span>
+                    <span class="navbar-toggler-bar"></span>
+                </button>
+            </div>
+                               
+            <div class="collapse navbar-collapse" id="navbar-info">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" style="font-size:medium">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#gallery">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>  
+                </ul>
+            </div>
+               
+        </div>
+    </nav>
+    <div class="wrapper">
+        <div class="page-header section-dark" style="background-image: url('pic/silver1.png')">
+            <div class="filter"></div>
+    		<div class="content-center">
+    			<div class="container">
+    				<div class="title-brand">
+    					<h1 class="presentation-title animated fadeInRightBig">Hi! I'm Alice.</h1>    	
+                    </div>
+    				<h3 class="presentation-subtitle text-center animated fadeInLeftBig">Welcome to Alice's portfolio web. Enjoy!</h3>
+    			</div>
+    		</div>
+    	</div>
+        <div class="main"> 
+            <div class="section">
+                <div class="container">
+                    <div class="tim-title" id="about">
+                                 <h2>About</h2>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div>
+                                <img src="pic/alice.JPG" class="alice-photo">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="tim-title">
+                                <h3 class="font-weight-bold">Alice Kim</h3>
+                            </div>
+                            <div class="jobtitle">
+                                <h4>Software Engineer</h4>
+                                <br/>
+                                <p>Hey! I am Alice Kim. I graducated in Mathematic major at San Francisco State University in 2018. I love coding and creating a variety of apps with new features and techonologies. I am a proactive, well oriented, passionate and reliable front end software engineer in San Francisco Bay area.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="tim-title">
+                        <h3 class="font-weight-bold">Web Development Skills</h3>
+                    </div>
+                    <div class="row skills-Icons">
+                        <img src="skillsIcons/html.png">
+                        <img src="skillsIcons/html5.png">
+                        <img src="skillsIcons/css.png">
+                        <img src="skillsIcons/css3.png">
+                        <img src="skillsIcons/js.png">
+                        <img src="skillsIcons/jq.png">
+                        <img src="skillsIcons/bs.jpeg">
+                        <img src="skillsIcons/api.jpeg">
+                        <img src="skillsIcons/github.png" class="picBox-size">
+                        <img src="skillsIcons/wp.png" class="picBox-size">
+                    </div>          
+                </div>
+                <div class="container">
+                    <div class="tim-title">
+                        <h3 class="font-weight-bold">What I like to do </h3>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-8">
+                            <img id="myImg" src="pic/cooking3.jpeg" alt="Food" width="100%">
+
+                            <div id="myModal" class="modal">
+                                <span class="close">&times;</span>
+                                <img class="modal-content" id="img01">
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <h4>Cooking</h4>
+                            <p>Here's what I've cooked so far.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 align-right">
+                            <h4>Traveling</h4>
+                            <p>Here's what I've traveled so far.</p>
+                        </div>
+                        <div class="col-md-8">
+                            <img id="myImg" src="pic/trip3.jpeg" alt="Food" width="100%">
+
+                            <div id="myModal" class="modal">
+                                <span class="close">&times;</span>
+                                <img class="modal-content" id="img01">
+                                <div id="caption"></div>
+                            </div>
+                        </div>
+                    </div>            
+                </div>
+                <div class="container">
+                    <div class="tim-title">
+                        <h3 class="font-weight-bold">What's in my mind </h3>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 ml-auto mr-auto">
+                            <div class="card page-carousel">
+                                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                    </ol>
+                                    <div class="carousel-inner" role="listbox">
+                                        <div class="carousel-item active">
+                                            <img class="d-block img-fluid" src="pic/thinking1.jpeg" alt="First slide">
+                                            <div class="carousel-caption d-none d-md-block">
+                                                <p></p>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block img-fluid" src="pic/life.jpeg" alt="Second slide">
+                                            <div class="carousel-caption d-none d-md-block">
+                                                <p></p>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block img-fluid" src="pic/logic2.jpeg" alt="Third slide">
+                                            <div class="carousel-caption d-none d-md-block">
+                                               
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a class="left carousel-control carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                        <span class="fa fa-angle-left"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="right carousel-control carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                        <span class="fa fa-angle-right"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+                            </div>       
+                        </div>      
+                    </div>
+                </div>     
+            </div>
+            <br/>
+            <div>
+				<div class="container">
+					<div class="tim-title" id="gallery">
+						<h2>Gallery</h2>
+					</div>
+                    <div class="row">
+                        <div class="col-md-4 gallery-pic">
+                            <a href="#proj-one"><img src="pic/proj2-responsive/project2-pic.png"></a>
+                        </div>
+                        <div class="col-md-4 gallery-pic gallery-style-size">
+                            <a href="#proj-two"><img src="pic/proj2-responsive/project3-pic.png"></a>
+                        </div>
+                        <div class="col-md-4 gallery-pic gallery-style-size2">
+                            <a href="#proj-three"><img src="pic/proj2-responsive/project4-pic.png"></a>
+                        </div>
+                    </div>
+				</div>
+            </div>
+        </div>
+
+        <div class=" gallery-width" id="proj-one">
+            <div class="row gallery1">
+                <div class="col-md-8">
+                    <div class="project-response">
+                        <img src="pic/projectAllPic/project2-all.png">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="title-center content-margin ">
+                        <h3 class="font-weight-bold title-center">Korean Food Web</h3>
+                        <h4 class="title-center">This responsive webpage is built using<strong>HTML5, CSS3, Javascript, jQuery</strong> and <strong>bootstrap grid system</strong>.</h4>
+
+                    </div>
+                </div>
+            </div>
+
+            <div style="background-color:#E2E1E0" id="proj-two">
+                <div class="gallery-bt12">
+                </div>
+            </div>
+                        
+            <div class="row gallery2">
+                <div class="col-md-4">
+                    <div class="title-center content-margin ">
+                        <h3 class="font-weight-bold title-center">Travel Web</h3>
+                        <h4 class="title-center">This responsive webpage is built using <strong>HTML5, CSS3, Javascript, jQuery</strong> and <strong>Sass</strong>.</h4>
+
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="project-response2">
+                        <img src="pic/projectAllPic/project3-all1.png">
+                    </div>
+                </div>
+            </div>
+
+            <div style="background-color:#E2E1E0">
+                <div class="gallery-bt22">
+                </div>
+            </div>
+
+            <div class="row gallery1">
+                <div class="col-md-8">
+                    <div class="project-response" id="proj-three">
+                        <img src="pic/projectAllPic/project4-all.png">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="title-center content-margin ">
+                        <h3 class="font-weight-bold title-center">Wedding Dress Web</h3>
+                        <h4 class="title-center">TThis responsive webpage is built using <strong>HTML5, CSS3, Javascript, jQuery</strong> and <strong>Sass</strong>.</h4>
+
+                    </div>
+                </div>
+            </div>
+        </div>        
+		<div class="section">
+            <div class="container text-center" id="contact">
+                <div class="row justify-content-md-center sharing-area text-center">
+                    <div class="text-center col-md-12 col-lg-8">
+                        <h3>Let's get in touch</h3>
+                    </div>
+                    <div class="text-center col-md-12 col-lg-8">
+                        <a href="#pablo" class="btn btn-twitter-bg twitter-sharrre btn-round" rel="tooltip" title="Tweet!">
+                            <i class="fa fa-twitter"></i> Twitter
+                        </a>
+                        <a href="#pablo" class="btn btn-google-bg linkedin-sharrre btn-round" rel="tooltip" title="Share!">
+                            <i class="fa fa-google-plus"></i> Google
+                        </a>
+                        <a href="#pablo" class="btn btn-facebook-bg facebook-sharrre btn-round" rel="tooltip" title="Share!">
+                            <i class="fa fa-facebook-square"></i> Facebook
+                        </a>
+                        <a href="https://github.com/creativetimofficial/paper-kit" class="btn btn-github-bg btn-github sharrre btn-round" rel="tooltip" title="Star on Github">
+                            <i class="fa fa-github"></i> Star
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="credits ml-auto">
+                <span class="copyright">
+                    <script>document.write(new Date().getFullYear())</script>, made with <i class="fa fa-heart heart"></i> by Alice Kim
+                </span>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+
+
+<script src="assets/js/jquery-3.2.1.js" type="text/javascript"></script>
+<script src="assets/js/jquery-ui-1.12.1.custom.min.js" type="text/javascript"></script>
+<script src="assets/js/popper.js" type="text/javascript"></script>
+<script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="portfolio1.js" type="text/javascript"></script>
+
+<script src="assets/js/bootstrap-switch.min.js"></script>
+
+<script src="assets/js/nouislider.js"></script>
+
+<script src="assets/js/moment.min.js"></script>
+<script src="assets/js/bootstrap-datetimepicker.min.js"></script>
+
+<script src="assets/js/paper-kit.js?v=2.1.0"></script>
+
+</html>
